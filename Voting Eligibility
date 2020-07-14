@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	int age;
+		string name;
+cout<<"Hello \n Enter your Name:";
+cin>>name;
+cout<<"Nice to Meet you "<<name;
+
+cout<<"\n Enter Your Age:";
+cin>>age;
+if ( age>=18 )
+{
+	cout<<"Congo " << name <<" You Are Eligible To Vote";
+}
+else
+{
+
+	cout<<"Sorry "<< name <<" You Are Not Old Enough To Vote";
+}
+
+return 0;
+}
