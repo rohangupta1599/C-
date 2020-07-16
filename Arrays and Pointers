@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string>
+using namespace std;
+main()
+{
+	
+int *p;
+int arr[5];
+int i;
+p=arr;
+cout<<"Enter Elements:";
+cin>>arr[0]>>arr[1]>>arr[2]>>arr[3]>>arr[4];
+cout<<"You Have Entered:";
+for(i=0; i<5;i++){
+cout<<*p<<endl;
+p++;
+}
+return 0;
+}
