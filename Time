@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+class time{
+public:
+int hours;
+int min;
+int sec;	
+} ;
+
+int main()
+{
+	time T;
+	cout<<"Enter Time:\n";
+	cout<<"Hour ? ";
+	cin>>T.hours;
+	cout<<"Minutes ? ";
+	cin>>T.min;
+	cout<<"Seconds ? ";
+	cin>>T.sec;
+	cout<<"The Time is =  "<<T.hours<<":"<<T.min<<":"<<T.sec<<"\n";
+	int a = T.hours*3600;
+	int b = T.min*60;
+	int c = T.sec;	
+	int total= a+b+c;
+	cout<<"Time In Total Seconds :"<<total;
+		
+
+}
